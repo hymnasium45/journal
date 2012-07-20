@@ -1,0 +1,45 @@
+#topbar {
+ font-size: 120%;
+ height:47px;/*3.2em;*/
+ color: #000;
+ text-align:center;
+ /*background-color: #DCDCDC; 
+*/ background: url('../images/bgr_bottom.png') repeat-x;
+}
+#topbar div {
+ width:44em;
+ margin: auto;
+}
+#topbar span {
+ float:left;
+ color: #999;
+ background-color: #000;
+ padding: 14px 18px;
+}
+#topbar .submit { 
+ display:block;
+ float:left;
+ color: #000;
+ border:none;
+ background-color: transparent;
+ text-align:center;
+ padding: 14px 18px;
+ text-decoration: none;}
+#topbar .submit:hover {
+ background-color: #FFF;
+ }
+
+#topbar a {
+ display:block;
+ float:left;
+ color: #000;
+ background-color: transparent;
+ text-align:center;
+ padding: 14px 18px;
+ text-decoration: none;}
+#topbar a:hover {
+
+ background-color: #FFF;
+
+
+}

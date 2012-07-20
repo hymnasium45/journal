@@ -1,0 +1,180 @@
+.form_settings {
+	font-family: Arial;
+	font-size: large;
+	}
+.form_settings .mess_delete {
+	height:30px;
+	opacity:0.5;
+	}
+.form_settings .simple {
+	border:none;
+	background-color:transparent;
+	color:#1F5FCE;
+	font-size: 100%;
+	}
+.form_settings .simple:hover{
+	text-decoration: underline;
+	}
+
+.form_settings .submit {
+   border-top: 0px solid #0079d6;
+   background: -webkit-gradient(linear, left top, left bottom, from(#008ffc), to(#0059ff));
+   background: -webkit-linear-gradient(top, #008ffc, #0059ff);
+   background: -moz-linear-gradient(top, #008ffc, #0059ff);
+   background: -ms-linear-gradient(top, #008ffc, #0059ff);
+   background: -o-linear-gradient(top, #008ffc, #0059ff);
+   padding: 7px 14px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   box-shadow:none;
+   /*box-shadow: 0 10px 0 rgba(0,0,0,1) ;
+   /*-moz-box-shadow: 0 0 3px rgba(0,0,0,0.5); /* Для Firefox */
+    /*-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+   /* box-shadow: 0 0 3px rgba(0,0,0,0.5); /* Параметры тени */
+	
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 16px;
+   font-weight: bold;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.form_settings .submit:hover {
+   border-top-color: #0059ff;
+   background: #0059ff;
+	outline: none;
+   }
+.form_settings .submit:active {
+   border-top-color: #0059ff;
+   background: #0032ff;
+   box-shadow: inset 0px 0px 30px #ccc;
+	outline: none;
+
+	
+   }
+.form_settings .submit:focus {
+	border-color: blue;
+}
+
+.form_settings .page {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f0f0f0), to(#dbdbdb));
+    background: -webkit-linear-gradient(top, #F0F0F0, #DBDBDB);
+    background: -moz-linear-gradient(top, #F0F0F0, #dbdbdb);
+    background: -ms-linear-gradient(top, #F0f0f0, #dbdbdb);
+    background: -o-linear-gradient(top, #f0f0f0, #dbdbdb);
+	border: solid 1px #B3B3B3;
+	height:30px;
+	padding:5px 10px;
+	margin:5px;
+	color:#594444;
+	font-size:87%;
+	min-width: 30px;
+	text-shadow:0 1px 0 #ffffff;
+	}
+.form_settings .page:hover {
+	background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#e5e5e5));
+    background: -webkit-linear-gradient(top, #fcfcfc, #e5e5e5);
+    background: -moz-linear-gradient(top, #fcfcfc, #e5e5e5);
+    background: -ms-linear-gradient(top, #fcfcfc, #e5e5e5);
+    background: -o-linear-gradient(top, #fcfcfc, #e5e5e5);
+	}	
+.form_settings .page:active {
+   background: #d3d3d3;
+   }	
+.form_settings .this_page {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: solid 1px #B3B3B3;
+	background: #d3d3d3;
+    height:30px;
+	padding:5px 10px;
+	margin:5px;
+	color:#594444;
+	font-size:87%;
+	min-width: 30px;
+	text-shadow:0 1px 0 #ffffff;
+	}
+.form_settings .page_input {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: solid 1px #B3B3B3;
+    height:30px;
+	padding:5px 10px;
+	margin:5px;
+	margin-left:50px;
+	color:#594444;
+	font-size:87%;
+	width: 60px;
+	text-shadow:0 1px 0 #ffffff;
+	}
+.form_settings .page_input:active, .form_settings .page_input:focus {
+	border: solid 1px #d3d3d3;
+	outline:none;
+	}
+
+.form_settings .text {
+	height: 30px;
+	width:250px;
+	border: 1px solid #b5b5b5;
+	outline: none;
+	font-size:110%;
+	color:black;
+	padding-left:10px;
+	margin-left:10px;
+	-moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.5); /* Параметры тени */
+	}
+.form_settings .text:hover {
+		border: 1px solid #828282;
+
+		}
+.form_settings .text:active {
+	border-color: #4788EE;
+	outline: none;	
+}
+.form_settings .text:focus {
+	border-color: blue;
+	outline: none;
+}
+
+.form_settings select {
+	border: 1px solid gray;
+	min-width: 50px;
+	height: 30px;
+	margin-left:10px;
+	background-color: white;
+	outline: none;
+	font-size:inherit;
+	}
+
+.form_settings select:focus {
+	border-color: blue;
+	outline: none;
+	
+}
+
+.form_settings textarea {
+	width:250px;
+	border: 1px solid #b5b5b5;
+	outline: none;
+	font-size:110%;
+	color:black;
+	padding:10px;
+	margin:10px;
+	-moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.5); /* Параметры тени */
+}
+.form_settings textarea:focus {
+	border-color: blue;
+	outline:none;
+}
+

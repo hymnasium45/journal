@@ -1,0 +1,25 @@
+.vote .content{ 
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	background-color:#F8F8F8;
+	border-radius: 0 0 10px 10px;
+	padding:20px;
+	}
+.vote .header {
+	height: 30px;
+	font-size:large;	
+	border-color:#4888F0;
+	background-color:#4888F0;
+	color: white;
+	border-radius: 10px 10px 0 0;
+	}
+.vote .line {
+	height:10px;
+	background-color:black;
+	border:none;
+   	background: -webkit-linear-gradient(bottom, #008ffc, #0059ff);
+   	background: -moz-linear-gradient(bottom, #008ffc, #0059ff);
+   	background: -ms-linear-gradient(bottom, #008ffc, #0059ff);
+   	background: -o-linear-gradient(bottom, #008ffc, #0059ff);
+	}
