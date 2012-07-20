@@ -1,0 +1,307 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-size:14px;
+	color:#666;
+	background-color: #FFF;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.comment,
+.addCommentContainer{
+	
+	/* Syling the comments and the comment form container */
+	/*left:80px;
+	*/
+	top:20px;	
+	padding:15px;
+	width:520px;
+	position:relative;
+	background-color:#fcfcfc;
+	border:1px solid white;
+	color:#888;
+	margin-bottom:25px;
+	
+	/* CSS3 rounded corners and drop shadows */
+	
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+
+	-moz-box-shadow:2px 2px 0 #c2c2c2;
+	-webkit-box-shadow:2px 2px 0 #c2c2c2;
+	box-shadow:2px 2px 0 #c2c2c2;
+	opacity:1;
+}
+
+
+.addCommentContainer {
+
+margin-left:40px;
+}
+
+
+
+.comment .avatar{
+
+	/*
+	/	The avatar is positioned absolutely, 
+	/	and offset outside the comment div
+	/*/
+
+	height:50px;
+	left:10px;
+	
+	position:absolute;
+	width:50px;
+	/*background:url('../images/default_avatar.gif') no-repeat #fcfcfc;
+	*/
+	/* Centering it vertically: */
+	
+	margin-top:-25px;
+	top:40px;
+
+}
+
+.comment .avatar img{
+	display:block;
+}
+
+.comment .name a{
+	padding-left:70px;
+	font-size:18px;
+	padding-bottom:10px;
+	color:#b0b0b0;
+}
+
+.comment .date{
+	font-size:10px;
+	padding:6px 0;
+	position:absolute;
+	right:/*15*/50px;
+	top:10px;
+	color:#bbb;
+}
+
+.comment .rate {
+	color:#c2c2c2;
+        position:absolute;
+        top:9px;
+        right:15px;
+        
+	font-size:150%;
+        }
+
+
+.comment .up {
+ 		
+	position:absolute;
+	top:7px;
+	right:0px;	
+	opacity:0.7;
+
+	}
+
+.comment .down {
+        
+        position:absolute;
+        top:20px;
+        right:0px;      
+	opacity:0.5;
+}
+
+.comment .down:hover, .comment .up:hover {
+opacity:1;
+}
+
+/*.comment .response{
+
+border:1px solid #D0D0D0;
+border-radius:5px;
+position:absolute;
+font-size:10px;
+padding: 4px;
+left:8px;
+bottom:3px;
+color:#c0c0c0;
+}
+.comment .response a:hover {
+text-decoration:none;
+}
+
+
+.comment .response:hover {
+
+border:1px solid #b0b0b0;
+
+}
+.comment .response:active {
+ -moz-box-shadow: inset 2px 2px 2px #c2c2c2;
+        -webkit-box-shadow:inset 2px 2px 2px #c2c2c2;
+        box-shadow:inset 2px 2px 2px #c2c2c2;
+
+}
+*/
+
+.comment .edit {
+position:absolute;
+font-size:10px;
+padding: 6px 0;
+right:30px;
+bottom:-3px;
+color:#bbb;
+
+}
+
+.comment .response {
+position:absolute;
+font-size:10px;
+padding: 6px 0;
+right:5px;
+bottom:-3px;
+color:#bbb;
+
+}
+
+
+
+.comment .edit a img, .comment .delete a img, .comment .response a img {
+opacity:0.5;
+
+
+}
+
+
+.comment .delete {
+position:absolute;
+font-size:10px;
+padding: 6px 0;
+right:55px;
+bottom:-3px;
+color:#bbb;
+
+}
+
+
+
+
+
+/*.comment .delete a img:hover {
+opacity:0.5;
+
+}
+*/
+
+
+
+.comment p,
+.addCommentContainer p{
+	font-size:14px;
+	line-height:1.5;
+	overflow-x:hidden;
+	padding-left:70px;
+	padding-bottom:30px;	
+}
+
+.addCommentContainer input[type=text],
+textarea, #addCommentContainer textarea{
+
+	/* Styling the inputs */
+
+	display:block;
+	border:1px solid #ccc;
+	margin:5px 0 5px;
+	padding:3px;
+	font-size:12px;
+	color:#555;
+	font-family:Arial, Helvetica, sans-serif;
+
+	width:300px;
+}
+label, span.error{
+	font-size:10px;
+}
+
+label span.error, span.error{
+	color:red;
+	position:absolute;
+	
+	top:1px;
+}
+
+.submit{
+	
+	/* The submit button */
+	
+	background-color:#58B9EB;
+	border:1px solid #40A2D4;
+	color:#FFFFFF;
+	cursor:pointer;
+	font-family:'Myriad Pro',Arial,Helvetica,sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding:4px;
+	margin-top:5px;
+
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+}
+
+.submit:hover {
+	background-color:#80cdf5;
+	border-color:#52b1e2;
+}
+
+/* The styles below are only necessary for the styling of the demo page: */
+
+#cBlock{
+	/*border-left:1px solid #c2c2c2;;
+	*/position:relative;
+	
+	width:700px;
+	 background: -webkit-linear-gradient(top, #E0E0E0, #F0F0F0  );
+ 
+	border-left: 2px #c0c0c0 solid;
+	border-radius: 8px;
+	padding-bottom:10px;
+	-moz-box-shadow:2px 2px 2px #c2c2c2;
+        -webkit-box-shadow:2px 2px 2px #c2c2c2;
+        box-shadow:2px 2px 2px #c2c2c2;
+
+}
+
+h1{
+	color:#7E94A2;
+	font-size:30px;
+	margin:50px 0 20px;
+}
+
+h2{
+	font-size:18px;
+	margin-bottom:50px;
+}
+
+h1,h2{
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+	text-align:center;
+	font-weight:normal;
+	text-shadow:0 1px 1px #FFFFFF;
+}
+
+/*a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a img{
+	border:none;
+}*/
