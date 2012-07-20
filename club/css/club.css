@@ -1,0 +1,72 @@
+.userClub {
+	background-color:#FFF;
+	width:700px;
+	margin-top:10px;
+	padding:10px;
+	margin-bottom:20px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	}
+.userClub .name {
+	width:400px;
+	}
+.userClub .name a{
+	color: #362C20;
+	font: normal 120% 'lucida sans', arial;
+	}
+.userClub .name a:hover{
+	text-decoration:none;
+	}
+.userClub .user_club_button {
+	opacity:0.5;
+	border:none;
+	background-color:transparent;
+	margin:0 5px;
+	
+	}
+.userClubRed {
+	border:none;
+	background-color:transparent;
+	color:red;
+	text-decoration:underline;
+	font-size: 95%;
+	}
+.userClubRed:hover {
+	text-decoration:none;
+	}
+.userClubGreen {
+	border:none;
+	background-color:transparent;
+	color:green;
+	text-decoration:underline;
+	font-size: 95%;
+	}
+.userClubGreen:hover {
+	text-decoration:none;
+	}
+
+.ClubMenu ul {
+    font: 100% arial;
+	}
+.ClubMenu li {
+  text-decoration:none;
+  text-align:left;
+  width: 180px;
+  height: 25px;
+  padding:5px;
+  padding-left:10px;
+  cursor: pointer;
+  }
+ .ClubMenu li a {
+	color:gray;
+	}
+.ClubMenu li:hover {
+  background-color: #f0f0f0;
+  }
+.ClubMenu li:hover a{
+  text-decoration:none;
+  }
