@@ -1,0 +1,121 @@
+
+.comment {
+	padding:5px;
+	margin-top:10px;
+	}
+.comment_selected {
+	background-color:#FFF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+	}
+.comment .post_image {	
+	width: 80px;
+	height: 120px;
+	}
+.comment .mess_button {
+	opacity:0.5;
+	border:none;
+	background-color:transparent;
+	}
+.comment .date {
+	width:400px;
+	font-size:10px;
+	color:#bbb;
+
+	}
+.comment .sender {
+	}
+.comment .sender_name a { 
+	text-decoration:none;
+	font-size:122.5%;
+	padding-bottom:10px;
+	color:#4f4f4f;
+    }
+.comment .sender_text {
+    /*background-color:#E0E0E0;
+	border-radius:0 0 10px 10px;*/
+	overflow:hidden;
+	text-overflow:ellipsis;
+	padding-left:5px;
+	padding-bottom:5px;
+	max-width:500px;
+	min-height:30px;
+	}
+.comment .sender_text a {
+}
+.comment .answer {
+	/*background-color:#F8F8F8;
+	border-radius:10px 10px 0 0;
+	*/
+	width:500px;	
+	padding:5px;
+	}
+.comment .answer_name {
+	font-size:100%;
+	font-style:oblique;
+	
+	color: #8A8A8A; 
+	}       
+.comment .answer_text {
+	color:gray;
+	text-decoration: none;
+	font-style:oblique;
+	font-size:90%;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	max-width:560px;
+	}
+.comment .answer_text a {
+	text-decoration:none;
+	color: gray;
+	}
+.comment .answer_button {
+	background-color:white;
+	border:none;
+	font-size:medium;
+	font-style:oblique;
+	font-weight:600;
+	color:#383838;
+	text-decoration:underline;
+     	
+	}
+.comment .rate{
+ 	color:#c2c2c2;
+    font-size:150%;
+    width:130px;
+    }
+.comment .rate_up {
+	background: url('../../images/Arrow_up.png')  no-repeat center;
+	width:20px;
+	height:20px;
+	border:none;
+	opacity:0.7;
+	}
+.comment .rate_up:hover {
+	opacity:1;
+	}
+.comment .rate_down {
+	background: url('../../images/Arrow_down.png')  no-repeat center;
+	width:20px;
+	height:20px;
+	border:none;
+	opacity:0.7;
+	}
+.comment .rate_down:hover {
+	opacity:1;
+	}
+	
+	
+.comment .th {
+height:30px;
+background-color:#E9EDF1;
+font-size:large;
+color: #607390;
+
+border-radius: 5px;
+        }
+
